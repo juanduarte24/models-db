@@ -6,6 +6,7 @@ import "dotenv/config";
 
 
 User;
+//Variable de entorno llamada PORT
 const PORT = process.env.PORT ?? 5000;
 
 //Probamos conexion con la base de datos
